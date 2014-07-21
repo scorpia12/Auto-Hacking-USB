@@ -16,5 +16,4 @@ Whats new:
 	- Fixes anti virus remover to work again
 
 	
-	
-	
+I am currently looking for developers for a few different Android apps and websites I am making. Please contact me using the email rossepstein@aol.com
