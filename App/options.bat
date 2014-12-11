@@ -103,9 +103,9 @@ if %errorLevel% == 0 (
 	goto eos
 	)
 :upd
-echo You are currently running version 2.0. 
+echo You are currently running version 3.0. 
 echo Were going to launch the repository where new versions are stored
-echo If any of the commits are higher then 2.0 you need to update!
+echo If any of the commits are higher then 3.0 you need to update!
 start https://github.com/rossepsteini/Auto-Hacking-USB
 echo Download the zip and replace the new files with the old.
 pause

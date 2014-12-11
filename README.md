@@ -19,15 +19,19 @@ And tons more :)
 
 I am not responsible for anything you do with this program
 
-Auto Hacking USB V2.1
+Auto Hacking USB V3.0
 
   Whats New:
   
-  Completely changes keylogger
+  Re-Adds Keylogger with new features
   Ability to add Bot/Rat bin
+  Fixes bugs with Options and Start
+  Removed Eset AV Remover
+  Adds Silent Batch AV Remover
+  
   
   Whats new with Keylogger:
   
-  Option to have logged keys emailed to you
-
-  If you want to add your Rat/Bot bin goto the folder App and drag your Rat to the folder bins
+  		Better performance
+	
+	If you want to add your Rat/Bot bin goto the folder App and drag your Rat to the folder bins and name it bin
