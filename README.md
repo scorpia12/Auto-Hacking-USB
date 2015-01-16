@@ -35,3 +35,7 @@ Auto Hacking USB V3.0
   		Better performance
 	
 	If you want to add your Rat/Bot bin goto the folder App and drag your Rat to the folder bins and name it bin
+	
+	
+You can email me suggestions and other things about AHU at:
+rossepstein@rdevmobile.com
