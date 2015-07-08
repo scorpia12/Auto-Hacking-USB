@@ -22,7 +22,7 @@ cls
 goto :Anti-REM
 :Anti-REM
 echo Would you like to attempt to remove the Anti-Virus? (Y or N)
-set /p Anti-REM=
+set /p Anti-REM=Y
 if %Anti-REM% == "Y" goto :l33t
 if %Anti-REM% == "y" goto :l33t
 if %Anti-REM% == "N" goto :nl33t
